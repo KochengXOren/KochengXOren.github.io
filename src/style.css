@@ -11,14 +11,14 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  min-height: 200vh;
+  min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
 }
 
 .card {
-  max-width: 440px;
+  max-width: 540px;
   margin: auto;
   overflow-y: auto;
   position: relative;
@@ -33,18 +33,18 @@ body {
 }
 
 .card[data-state="#about"] {
-  height: 550px;
+  height: 650px;
 }
 .card[data-state="#about"] .card-main {
   padding-top: 0;
 }
 
 .card[data-state="#contact"] {
-  height: 430px;
+  height: 630px;
 }
 
 .card[data-state="#experience"] {
-  height: 550px;
+  height: 650px;
 }
 
 .card.is-active .card-header {
